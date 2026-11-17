@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL,"RU");
     int size;
     cout << "Введите размер массива: ";
     cin >> size;
